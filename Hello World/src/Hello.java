@@ -6,6 +6,8 @@ public class Hello {
 		
 		System.out.println("Just saying hello from Hello.java");
 		System.out.println(hi);
+		
+		AGitTest git = new AGitTest();
 	}
 
 }
