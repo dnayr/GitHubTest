@@ -13,9 +13,11 @@ public class HelloWorld {
 		System.out.print("\ny=" + y);
 		switch (z) {
 			case 1:
-				x = x + 2;System.out.print("\ncase1 x=" + x);
+				x = x + 2;
+				System.out.print("\ncase1 x=" + x);
 			case 2:
-				x = x + 3;System.out.print("\ncase2 x=" + x);
+				x = x + 3;
+				System.out.print("\ncase2 x=" + x);
 			default:
 				x = x + 1;
 		}
