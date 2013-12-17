@@ -22,5 +22,12 @@ public class HelloWorld {
 				x = x + 1;
 		}
 		System.out.println("\nValue of x: " + x);
+		
+		HelloWorld hiObj = new HelloWorld();
+		hiObj.aFunction();
+	}
+	
+	public void aFunction() {
+		System.out.println("This is a function");
 	}
 }
